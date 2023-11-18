@@ -1,0 +1,667 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.navbar h1{
+    font-family: 'Kenia', sans-serif;
+
+}
+.navbar ul{
+    font-family: 'Kenia', sans-serif;
+
+}
+span{
+    color: #CE1212 ;
+}
+.line{
+    color: rgb(0, 0, 0);
+    border-bottom:2px solid #CE1212;
+
+}
+.grey{
+    color: gray;
+    transition: .5s;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+    /* color: gray; */
+    cursor: pointer;
+    font-size: large;
+}
+.grey:hover{
+    color: black;
+    border-bottom: 2px solid #CE1212;
+}
+.navbarIcon{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.Healthy{
+    /* border: 2px solid red; */
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    margin: 0px;
+    padding: 40px;
+}
+.Enjoy{
+    font-family: 'Kenia', sans-serif;
+    font-size: 30px;
+
+}
+.Enjoy p{
+    font-size: 20px;
+}
+
+.HealthyImg{
+    /* border: 1px solid; */
+    /* margin-top: 20px; */
+
+}
+.HealthyImg img{
+    width: 100%;
+    filter: drop-shadow(4xp 4px 9px #000a);
+    transition: 2s;
+}
+.HealthyImg img:hover{
+    transform: rotate(360deg);
+
+
+}
+button{
+    background-color: #CE1212;
+    border-radius: 0px 100vh 100vh;
+    color: white;
+    font-size: 15px;
+    transition: .5s;
+    cursor: pointer;
+    padding: 15px;
+    width: 155px;
+    font-family: 'Kenia', sans-serif;
+
+}
+button:hover{
+    background-color: rgba(255, 0, 0, 0.826);
+}
+.mahdy{
+    display: flex;
+    justify-content: space-between;
+
+}
+.test{
+    /* background-color: red; */
+    width: 220px;
+    height: 40px;
+    /* border: 2px solid; */
+    padding-top: 15px;
+     border-top: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+     border-left: 10px solid red;
+     border-radius: 50px;
+    margin-right: 150px;
+    margin-left: 40px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+label{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+.test:hover{
+    color: red;
+}
+.test i{
+    position: absolute;
+    bottom: 7px;
+    right: 72%;
+    /* border: 2px solid red; */
+    width: 60px;
+    height: 37px;
+    background-color : white;
+    border-radius: 100px;
+    font-size: 27px;
+    /* margin-right: 50px; */
+}
+/*-----------------------------------------------------------------------------------------------*/
+.chefs{
+    /* border: 2px solid red; */
+    margin-top: 80px;
+}
+.chefs h1{
+    text-align: center;
+    font-family: 'Kenia', sans-serif;
+
+}
+.chefs h5{
+    text-align: center;
+    color: #8A8A9A;
+    font-family: 'Kenia', sans-serif;
+    font-size: 18px;
+
+
+
+}
+.proffesional{
+    /* border: 3px solid green; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+
+
+}
+.waves{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    height: 550px;
+    position: relative;
+    transition: all .5s;
+    overflow: hidden;
+}
+.waves h4{
+    color: #8A8A9A;
+}
+.waves:hover{
+    transform: scale(1.07);
+}
+
+.wavesImg , .contant{
+    /* border: 2px solid yellow; */
+}
+.waves img{
+    width: 100%;
+    height: 70%;
+}
+
+.contant{
+    font-family: 'Kenia', sans-serif;
+    /* border: 3px solid orange; */
+    background: url("images/wave\ \(1\).svg");
+    background-size: cover cover;
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+    position: absolute;
+    width: 100%;
+    top: 57%;
+    /* border: 1px solid black; */
+}
+/*-----------------------------------------------------------------------------------------------*/
+.gallery{
+    /* border: 2px solid red; */
+    background-color: #EEEEEE;
+    padding-top: 60px;
+    margin-top: 80px;
+    padding-bottom: 90px;
+}
+.gallery h5{
+    text-align: center;
+    font-family: 'Kenia', sans-serif;
+    color: #8A8A9A;
+
+}
+.gallery h1{
+    text-align: center;
+    font-family: 'Kenia', sans-serif;
+
+}
+
+.galleryContiner{
+    /* border: 3px solid green; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.OurPizza{
+    /* border: 2px solid ; */
+    width: 400px;
+
+}
+.pizza{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.pizza img{
+    width: 100%;
+    /* border: 2px solid red; */
+
+}
+.pizzaContent{
+    position: absolute;
+    top: 100%;
+    width: 400px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.484);
+    transition: all .5s;
+    color: white;
+    text-align: center;
+    padding-top: 95px;
+    line-height: 20px;
+    font-family: 'Kenia', sans-serif;
+
+}
+.pizza:hover .pizzaContent{
+    top: 0%;
+}
+
+.pizza-2{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.pizza-2 img{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid yellow; */
+    margin-top: 30px;
+
+}
+.pizza-2:hover .pizzaContent{
+    top: 5%;
+}
+
+
+.ourBeefSteaks{
+    /* border: 2px solid ; */
+    width: 400px;
+}
+.BeefSteaks{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.BeefSteaks img{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 600px;
+
+
+}
+.BeefSteaksContent{
+    position: absolute;
+    top: 100%;
+    width: 400px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.484);
+    transition: all .5s;
+    color: white;
+    text-align: center;
+    padding-top: 95px;
+    line-height: 20px;
+    font-family: 'Kenia', sans-serif;
+
+}
+.BeefSteaks:hover .BeefSteaksContent{
+    top: 0%;
+}
+.BeefSteaks-2{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.BeefSteaks-2 img{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+}
+.BeefSteaks-2:hover .BeefSteaksContent{
+    top: 7%;
+}
+
+.ourBurger{
+    /* border: 2px solid ; */
+    width: 400px;
+}
+.Burger{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.Burger img{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.BurgerContent{
+    position: absolute;
+    top: 100%;
+    width: 400px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.484);
+    transition: all .5s;
+    color: white;
+    text-align: center;
+    padding-top: 95px;
+    line-height: 20px;
+    font-family: 'Kenia', sans-serif;
+
+}
+.Burger:hover .BurgerContent{
+    top: 0%;
+
+}
+.Burger-2{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.Burger-2 img{
+    width: 100%;
+    /* border: 2px solid yellow; */
+    margin-top: 30px;
+}
+.Burger-2:hover .BurgerContent{
+    top: 10%;
+}
+
+
+.Burger-3{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.Burger-3 img{
+    width: 100%;
+    /* border: 2px solid yellow; */
+    margin-top: 30px;
+}
+.Burger-3:hover .BurgerContent{
+    top: 7%;
+}
+/*-----------------------------------------------------------------------------------------------*/
+.contact{
+    /* border: 2px solid red; */
+    margin-top: 80px;
+}
+.contact h5{
+    text-align: center;
+    font-family: 'Kenia', sans-serif;
+}
+.contact h1{
+    text-align: center;
+    font-family: 'Kenia', sans-serif;
+}
+.ContactContiner{
+    /* border: 2px solid green; */
+    width: 98%;
+    margin: 0 auto;
+}
+.ContactContiner iframe{
+    width:100%;
+    height: 300px;
+}
+.information{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+}
+
+
+.OurAddress{
+    /* border:  2px solid yellow; */
+    margin-bottom: 15px;
+    float: left;
+    width: 691px;
+    margin-right: 12px;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    font-family: 'Kenia', sans-serif;    
+}
+
+.ourAddressdetails
+{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    padding: 20px;
+    
+
+}
+.spanContiner{
+    /* border: 2px solid blue; */
+    margin-right: 20px;
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+}
+.AddressIcon{
+    border: 2px solid #EF5261;
+    background-color: #CE1212;
+    width: 8%;
+    margin-right: 2%;
+    float: left;
+    box-sizing: border-box;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 10px ;
+}
+.addressSpan{
+    font-size: 30px;
+    color: #7D7D7D;
+}
+.addressStreet{
+    font-size: 18px;
+    color: #7D7D7D;
+    margin-bottom: 5px;
+
+}
+
+.contact-buttom{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+.contact-buttom .YourName{
+    width: 690px;
+    padding: 15px;
+    font-family: 'Kenia', sans-serif;
+    box-sizing: border-box;
+
+}
+.contact-buttom .YourEmail{
+    width: 699px;
+    padding: 15px;
+    margin-left: 13px;
+    font-family: 'Kenia', sans-serif;
+    box-sizing: border-box;
+}
+.contact-buttom .Subject{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    font-family: 'Kenia', sans-serif;
+}
+.Message{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    font-family: 'Kenia', sans-serif;
+
+}
+.SendMessage{
+    background-color: #CE1212;
+    border-radius:  40vh 40vh;
+    color: white;
+    font-size: 15px;
+    transition: .5s;
+    cursor: pointer;
+    padding: 15px 20px;
+    width: 155px;
+    margin-top: 20px;
+    margin-left: 43%;
+    font-family: 'Kenia', sans-serif;
+
+}
+/*-----------------------------------------------------------------------------------------------*/
+.footer{
+    /* border: 2px solid red; */
+    background-color: black;
+    margin-top: 80px;
+
+}
+.footerContiner{
+    /* border: 3px solid green; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.Mealify{
+    /* border: 1px solid red; */
+    width: 400px;
+    padding: 18px;
+}
+.Mealify i{
+    font-size: 40px;
+    /* border:  1px solid yellow; */
+    color: #EF5261;
+    
+}
+.Mealify label{
+ font-size: 40px;
+ margin-left: 9px;
+ /* border: 1px solid blue; */
+ color: white;
+ font-family: 'Kenia', sans-serif;
+
+}
+.Mealify p{
+    font-size: 20px;
+    margin: 2px;
+    color: white;
+    font-family: 'Kenia', sans-serif;
+
+}
+.Mealify h2{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-family: 'Kenia', sans-serif;
+}
+.MealifyIcons{
+    /* border: 2px solid red; */
+}
+.MealifyIcons i{
+    margin-left: 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Subscribe{
+    /* border: 2px solid yellow; */
+    width: 600px;
+    padding: 10px;
+}
+.Subscribe h2{
+    color: white;
+    font-family: 'Kenia', sans-serif;
+
+}
+.Subscribe p{
+    color: white;
+    font-family: 'Kenia', sans-serif;
+}
+.Subscribe input{
+    width: 350px;
+    padding: 10px;
+    font-family: 'Kenia', sans-serif;
+}
+.Subscribe .SubscribeButton{
+    background-color: #CE1212;
+    border-radius:  40vh 40vh;
+    color: white;
+    font-size: 15px;
+    transition: .5s;
+    cursor: pointer;
+    padding: 15px 20px;
+    width: 155px;
+    font-family: 'Kenia', sans-serif;
+}
+.SubscribeButton:hover{
+    background-color: red;
+}
+.Subscribe h3{
+    color: white;
+    font-family: 'Kenia', sans-serif;
+}
+.Subscribe ul{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Kenia', sans-serif;
+}
+.SubscribeUl{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+    font-family: 'Kenia', sans-serif;
+}
+.Subscribe ul li{
+    margin-top: 10px;
+}
+.GetinTouch{
+    /* border: 2px solid red; */
+    width: 360px;
+    padding: 10px;
+}
+.GetinTouch h2{
+    color: white;
+    font-family: 'Kenia', sans-serif;
+}
+.GetinTouch i{
+    margin-top: 11px;
+    font-size: 23px;
+}
+.GetinTouch label{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Kenia', sans-serif;
+
+    
+}
+
+
+.ahmed{
+    background-color: #E3DDD7;
+    height: 150px;
+    width: 30px;
+    position: absolute;
+    top: 8%;
+    left: 100%;
+    transition: all .5s .5s;
+    border-radius: 10px;
+    padding: 5px;
+}
+.ahmed i{
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.waves:hover .ahmed{
+    left: 87%;
+}
+
+.clr
+{
+    clear: both;
+}
+
+            
+
