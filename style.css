@@ -1,667 +1,315 @@
-body{
-    margin: 0px;
-}
-.navbar{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-}
-.navbar h1{
-    font-family: 'Kenia', sans-serif;
-
-}
-.navbar ul{
-    font-family: 'Kenia', sans-serif;
-
-}
-span{
-    color: #CE1212 ;
-}
-.line{
-    color: rgb(0, 0, 0);
-    border-bottom:2px solid #CE1212;
-
-}
-.grey{
-    color: gray;
-    transition: .5s;
-}
-.navbar ul li{
-    display: inline-block;
-    margin-left: 30px;
-    margin-top: 10px;
-    /* color: gray; */
-    cursor: pointer;
-    font-size: large;
-}
-.grey:hover{
-    color: black;
-    border-bottom: 2px solid #CE1212;
-}
-.navbarIcon{
-    margin-top: 20px;
-    font-size: 25px;
-}
-.Healthy{
-    /* border: 2px solid red; */
-    background-color: #EEEEEE;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80vh;
-    margin: 0px;
-    padding: 40px;
-}
-.Enjoy{
-    font-family: 'Kenia', sans-serif;
-    font-size: 30px;
-
-}
-.Enjoy p{
-    font-size: 20px;
-}
-
-.HealthyImg{
-    /* border: 1px solid; */
-    /* margin-top: 20px; */
-
-}
-.HealthyImg img{
-    width: 100%;
-    filter: drop-shadow(4xp 4px 9px #000a);
-    transition: 2s;
-}
-.HealthyImg img:hover{
-    transform: rotate(360deg);
-
-
-}
-button{
-    background-color: #CE1212;
-    border-radius: 0px 100vh 100vh;
-    color: white;
-    font-size: 15px;
-    transition: .5s;
-    cursor: pointer;
-    padding: 15px;
-    width: 155px;
-    font-family: 'Kenia', sans-serif;
-
-}
-button:hover{
-    background-color: rgba(255, 0, 0, 0.826);
-}
-.mahdy{
-    display: flex;
-    justify-content: space-between;
-
-}
-.test{
-    /* background-color: red; */
-    width: 220px;
-    height: 40px;
-    /* border: 2px solid; */
-    padding-top: 15px;
-     border-top: transparent;
-    border-bottom: transparent;
-    border-right: transparent;
-     border-left: 10px solid red;
-     border-radius: 50px;
-    margin-right: 150px;
-    margin-left: 40px;
-    text-align: center;
-    cursor: pointer;
-    position: relative;
-}
-label{
-    margin-left: 50px;
-    margin-top: 5px;
-    font-size: 25px;
-    cursor: pointer;
-    transition: .5s;
-}
-.test:hover{
-    color: red;
-}
-.test i{
-    position: absolute;
-    bottom: 7px;
-    right: 72%;
-    /* border: 2px solid red; */
-    width: 60px;
-    height: 37px;
-    background-color : white;
-    border-radius: 100px;
-    font-size: 27px;
-    /* margin-right: 50px; */
-}
-/*-----------------------------------------------------------------------------------------------*/
-.chefs{
-    /* border: 2px solid red; */
-    margin-top: 80px;
-}
-.chefs h1{
-    text-align: center;
-    font-family: 'Kenia', sans-serif;
-
-}
-.chefs h5{
-    text-align: center;
-    color: #8A8A9A;
-    font-family: 'Kenia', sans-serif;
-    font-size: 18px;
-
-
-
-}
-.proffesional{
-    /* border: 3px solid green; */
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-
-
-
-}
-.waves{
-    border: 2px solid transparent;
-    border-radius: 5px;
-    width: 31%;
-    text-align: center;
-    background-color: #fff;
-    height: 550px;
-    position: relative;
-    transition: all .5s;
-    overflow: hidden;
-}
-.waves h4{
-    color: #8A8A9A;
-}
-.waves:hover{
-    transform: scale(1.07);
-}
-
-.wavesImg , .contant{
-    /* border: 2px solid yellow; */
-}
-.waves img{
-    width: 100%;
-    height: 70%;
-}
-
-.contant{
-    font-family: 'Kenia', sans-serif;
-    /* border: 3px solid orange; */
-    background: url("images/wave\ \(1\).svg");
-    background-size: cover cover;
-    background-repeat: no-repeat;
-    padding: 60px 0px;
-    position: absolute;
-    width: 100%;
-    top: 57%;
-    /* border: 1px solid black; */
-}
-/*-----------------------------------------------------------------------------------------------*/
-.gallery{
-    /* border: 2px solid red; */
-    background-color: #EEEEEE;
-    padding-top: 60px;
-    margin-top: 80px;
-    padding-bottom: 90px;
-}
-.gallery h5{
-    text-align: center;
-    font-family: 'Kenia', sans-serif;
-    color: #8A8A9A;
-
-}
-.gallery h1{
-    text-align: center;
-    font-family: 'Kenia', sans-serif;
-
-}
-
-.galleryContiner{
-    /* border: 3px solid green; */
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-}
-.OurPizza{
-    /* border: 2px solid ; */
-    width: 400px;
-
-}
-.pizza{
-    width: 400px;
-    position: relative;
-    overflow: hidden;
-}
-.pizza img{
-    width: 100%;
-    /* border: 2px solid red; */
-
-}
-.pizzaContent{
-    position: absolute;
-    top: 100%;
-    width: 400px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.484);
-    transition: all .5s;
-    color: white;
-    text-align: center;
-    padding-top: 95px;
-    line-height: 20px;
-    font-family: 'Kenia', sans-serif;
-
-}
-.pizza:hover .pizzaContent{
-    top: 0%;
-}
-
-.pizza-2{
-    width: 400px;
-    position: relative;
-    overflow: hidden;
-}
-.pizza-2 img{
-    width: 100%;
-    height: 600px;
-    /* border: 2px solid yellow; */
-    margin-top: 30px;
-
-}
-.pizza-2:hover .pizzaContent{
-    top: 5%;
-}
-
-
-.ourBeefSteaks{
-    /* border: 2px solid ; */
-    width: 400px;
-}
-.BeefSteaks{
-    width: 400px;
-    position: relative;
-    overflow: hidden;
-}
-.BeefSteaks img{
-    width: 100%;
-    /* border: 2px solid red; */
-    height: 600px;
-
-
-}
-.BeefSteaksContent{
-    position: absolute;
-    top: 100%;
-    width: 400px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.484);
-    transition: all .5s;
-    color: white;
-    text-align: center;
-    padding-top: 95px;
-    line-height: 20px;
-    font-family: 'Kenia', sans-serif;
-
-}
-.BeefSteaks:hover .BeefSteaksContent{
-    top: 0%;
-}
-.BeefSteaks-2{
-    width: 400px;
-    position: relative;
-    overflow: hidden;
-}
-.BeefSteaks-2 img{
-    width: 100%;
-    /* border: 2px solid red; */
-    margin-top: 30px;
-}
-.BeefSteaks-2:hover .BeefSteaksContent{
-    top: 7%;
-}
-
-.ourBurger{
-    /* border: 2px solid ; */
-    width: 400px;
-}
-.Burger{
-    width: 400px;
-    position: relative;
-    overflow: hidden;
-}
-.Burger img{
-    width: 100%;
-    /* border: 2px solid red; */
-}
-.BurgerContent{
-    position: absolute;
-    top: 100%;
-    width: 400px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.484);
-    transition: all .5s;
-    color: white;
-    text-align: center;
-    padding-top: 95px;
-    line-height: 20px;
-    font-family: 'Kenia', sans-serif;
-
-}
-.Burger:hover .BurgerContent{
-    top: 0%;
-
-}
-.Burger-2{
-    width: 400px;
-    position: relative;
-    overflow: hidden;
-}
-.Burger-2 img{
-    width: 100%;
-    /* border: 2px solid yellow; */
-    margin-top: 30px;
-}
-.Burger-2:hover .BurgerContent{
-    top: 10%;
-}
-
-
-.Burger-3{
-    width: 400px;
-    position: relative;
-    overflow: hidden;
-}
-.Burger-3 img{
-    width: 100%;
-    /* border: 2px solid yellow; */
-    margin-top: 30px;
-}
-.Burger-3:hover .BurgerContent{
-    top: 7%;
-}
-/*-----------------------------------------------------------------------------------------------*/
-.contact{
-    /* border: 2px solid red; */
-    margin-top: 80px;
-}
-.contact h5{
-    text-align: center;
-    font-family: 'Kenia', sans-serif;
-}
-.contact h1{
-    text-align: center;
-    font-family: 'Kenia', sans-serif;
-}
-.ContactContiner{
-    /* border: 2px solid green; */
-    width: 98%;
-    margin: 0 auto;
-}
-.ContactContiner iframe{
-    width:100%;
-    height: 300px;
-}
-.information{
-    /* border: 2px solid red; */
-    margin-top: 30px;
-}
-
-
-.OurAddress{
-    /* border:  2px solid yellow; */
-    margin-bottom: 15px;
-    float: left;
-    width: 691px;
-    margin-right: 12px;
+body {
     background-color: #F5F5F5;
-    box-sizing: border-box;
-    font-family: 'Kenia', sans-serif;    
+    /* font-family: 'Kenia', sans-serif; */
 }
-
-.ourAddressdetails
+.border2
 {
-    /* border: 1px solid red; */
-    margin-top: 40px;
-    padding: 20px;
-    
-
-}
-.spanContiner{
-    /* border: 2px solid blue; */
-    margin-right: 20px;
-    width: 70%;
-    float: left;
-    box-sizing: border-box;
-}
-.AddressIcon{
-    border: 2px solid #EF5261;
-    background-color: #CE1212;
-    width: 8%;
-    margin-right: 2%;
-    float: left;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 50%;
-    padding: 10px ;
-}
-.addressSpan{
-    font-size: 30px;
-    color: #7D7D7D;
-}
-.addressStreet{
-    font-size: 18px;
-    color: #7D7D7D;
-    margin-bottom: 5px;
-
-}
-
-.contact-buttom{
-    /* border: 2px solid red; */
-    margin-top: 20px;
-}
-.contact-buttom .YourName{
-    width: 690px;
-    padding: 15px;
-    font-family: 'Kenia', sans-serif;
-    box-sizing: border-box;
-
-}
-.contact-buttom .YourEmail{
-    width: 699px;
-    padding: 15px;
-    margin-left: 13px;
-    font-family: 'Kenia', sans-serif;
-    box-sizing: border-box;
-}
-.contact-buttom .Subject{
-    width: 100%;
-    padding: 15px;
-    margin-top: 20px;
-    font-family: 'Kenia', sans-serif;
-}
-.Message{
-    width: 100%;
-    padding: 15px;
-    margin-top: 20px;
-    font-family: 'Kenia', sans-serif;
-
-}
-.SendMessage{
-    background-color: #CE1212;
-    border-radius:  40vh 40vh;
-    color: white;
-    font-size: 15px;
-    transition: .5s;
-    cursor: pointer;
-    padding: 15px 20px;
-    width: 155px;
-    margin-top: 20px;
-    margin-left: 43%;
-    font-family: 'Kenia', sans-serif;
-
-}
-/*-----------------------------------------------------------------------------------------------*/
-.footer{
-    /* border: 2px solid red; */
-    background-color: black;
-    margin-top: 80px;
-
-}
-.footerContiner{
-    /* border: 3px solid green; */
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-}
-.Mealify{
-    /* border: 1px solid red; */
-    width: 400px;
-    padding: 18px;
-}
-.Mealify i{
-    font-size: 40px;
-    /* border:  1px solid yellow; */
-    color: #EF5261;
-    
-}
-.Mealify label{
- font-size: 40px;
- margin-left: 9px;
- /* border: 1px solid blue; */
- color: white;
- font-family: 'Kenia', sans-serif;
-
-}
-.Mealify p{
-    font-size: 20px;
-    margin: 2px;
-    color: white;
-    font-family: 'Kenia', sans-serif;
-
-}
-.Mealify h2{
-    text-align: center;
-    border-bottom: 1px solid gray;
-    color: white;
-    font-family: 'Kenia', sans-serif;
-}
-.MealifyIcons{
-    /* border: 2px solid red; */
-}
-.MealifyIcons i{
-    margin-left: 60px;
-    font-size: 20px;
-    cursor: pointer;
-}
-.Subscribe{
-    /* border: 2px solid yellow; */
-    width: 600px;
-    padding: 10px;
-}
-.Subscribe h2{
-    color: white;
-    font-family: 'Kenia', sans-serif;
-
-}
-.Subscribe p{
-    color: white;
-    font-family: 'Kenia', sans-serif;
-}
-.Subscribe input{
-    width: 350px;
-    padding: 10px;
-    font-family: 'Kenia', sans-serif;
-}
-.Subscribe .SubscribeButton{
-    background-color: #CE1212;
-    border-radius:  40vh 40vh;
-    color: white;
-    font-size: 15px;
-    transition: .5s;
-    cursor: pointer;
-    padding: 15px 20px;
-    width: 155px;
-    font-family: 'Kenia', sans-serif;
-}
-.SubscribeButton:hover{
-    background-color: red;
-}
-.Subscribe h3{
-    color: white;
-    font-family: 'Kenia', sans-serif;
-}
-.Subscribe ul{
-    color: white;
-    list-style: none;
-    display: inline-block;
-    font-family: 'Kenia', sans-serif;
-}
-.SubscribeUl{
-    color: white;
-    list-style: none;
-    display: inline-block;
-    margin-left: 80px;
-    font-family: 'Kenia', sans-serif;
-}
-.Subscribe ul li{
-    margin-top: 10px;
-}
-.GetinTouch{
-    /* border: 2px solid red; */
-    width: 360px;
-    padding: 10px;
-}
-.GetinTouch h2{
-    color: white;
-    font-family: 'Kenia', sans-serif;
-}
-.GetinTouch i{
-    margin-top: 11px;
-    font-size: 23px;
-}
-.GetinTouch label{
-    color: white;
-    font-size: 15px;
-    margin-left: 10px;
-    font-family: 'Kenia', sans-serif;
-
-    
+    border: 3px solid red;
 }
 
 
-.ahmed{
-    background-color: #E3DDD7;
-    height: 150px;
-    width: 30px;
+.image {
+    background-image: url(images/WhatsApp\ Image\ 2023-11-14\ at\ 12.22.42\ PM.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.background-Color {
+    background-color: rgba(0, 0, 0, 0.475);
+    height: 100vh;
+
+}
+
+.ml-5 {
+    margin-left: 100px;
+}
+
+.mr-2 {
+    margin-left: 525px;
+}
+
+.link-hover {
+    position: relative;
+}
+
+.link-hover::before {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: white;
     position: absolute;
-    top: 8%;
-    left: 100%;
-    transition: all .5s .5s;
-    border-radius: 10px;
+    left: 8%;
+    top: 80%;
+    transition: all .5s;
+}
+
+.link-hover:hover::before {
+    width: 80%;
+}
+
+.font-size-4 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-bottom: 90px;
+    margin-right: 50px;
+}
+
+.developer {
+    font-size: 2rem;
+    margin-top: -80px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+.font-span {
+    font-size: 16px;
+}
+
+.AboutMe {
+    font-weight: 200;
+    font-size: 18px;
+
+}
+
+h3 {
+    position: relative;
+}
+
+h3::before {
+    content: "";
+    width: 90px;
+    height: 3px;
+    background-color: #0E78FF;
+    position: absolute;
+    top: 120%;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+.services .line {
+    position: relative;
+}
+
+.services .line::before {
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color: #0E78FF;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.icon {
+    margin: 0 auto;
+    margin-block: 5px;
+    padding: 26px 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: all .5s;
+
+
+}
+
+.icon i {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.hover-icon:hover .icon {
+    background-color: #0E78FF;
+    color: white;
+    box-shadow: 0 0 0 10px #CDE1F8;
+
+
+}
+.haight100
+{
+    height: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+.works-image {
+    background-image: url(images/WhatsApp\ Image\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+}
+.works-image .row
+{
+    padding: 50px;
+    background-color: #378ae9b7;
+
+}
+.clock-icon{
+    font-size: 80px;
+    margin-inline: 1.25rem;
+
+}
+.works-top{
+    /* margin-top: 130px; */
+}
+.font-icon{
+    font-size: 35px;
+    padding: 15px;
+}
+/*-----------------------------------------------------------------------------------------*/
+.port-text p{
+    padding-left: 20px;
+   margin: 0px;
+}
+.port-text span{
+    color: #0078ff;
+}
+.fa-circle-plus{
+    color: #0078ff;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.hover-img {
+    overflow: hidden;
+    
+}
+.portfImg img{
+    transition: all 1s;
+}
+.portfImg:hover img{
+    transform: scale(1.3);
+}
+/*-----------------------------------------------------------------------------------------*/
+.Mycarousel{
+    background-image: url(images/tree.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.carouselaye{
+    background-color: #0077ffb9;
+}
+.carousel-indicators{
+    top: 100%;
+   
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/*-----------------------------------------------------------------------------------------*/
+.blog .line {
+    position: relative;
+}
+
+.blog .line::before {
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color: #0E78FF;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.travel{
+    width: 80px;
+    padding: 5px;
+    font-size: 15px;
+    left: 40%;
+    top: 52%;
+    background-color: #0E78FF;
+
+}
+.whatsapp-img{
+    width: 13%;
+    
+}
+.Mrgan{
+    transition: all .5s;
+    cursor: pointer;
+}
+.Mrgan:hover{
+    color: #0078ff;
+}
+.bg{
+    background-color: #F8F8F8;
+}
+
+.blgImg
+{
+
+}
+.blog .col-md-4
+{
+    /* background-color: red; */
+    /* padding: 0px; */
+}
+.blogText
+{
+ padding: 10px;   
+}
+
+.test
+{
+        /* background-color: red; */
+
+}
+/*-----------------------------------------------------------------------------------------*/
+.send-message{
+    background-image: url(images/tree.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-sendMessage{
+    background-color: #378ae9c1;
+   
+}
+.con-send-message{
+    margin-top: 100px;
+    /* border: 1px solid red; */
+    
+}
+.YourName{
+    width: 600px;
     padding: 5px;
 }
-.ahmed i{
-    font-size: 20px;
-    margin-top: 15px;
-    cursor: pointer;
-}
-.waves:hover .ahmed{
-    left: 87%;
+.btn-primary{
+    margin-left: 250px;
 }
 
-.clr
+.YourName,textarea
 {
-    clear: both;
+    width: 100%;
 }
-
-            
-
+.fa-location-dot{
+    color: #0078ff;
+}
+.fa-mobile-button{
+    color: #0078ff;
+}
+.fa-envelope{
+    color: #0078ff;
+}
+.social-Icon{
+    font-size: 20px;
+}
+/*-----------------------------------------------------------------------------------------*/
+.color-footer{
+    background-color: #0962D3;
+}
+.Footer{
+    font-size: 15px;
+}
